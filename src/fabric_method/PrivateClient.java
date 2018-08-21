@@ -1,4 +1,4 @@
-package com.company;
+package fabric_method;
 
 public class PrivateClient implements Client{
     String name;

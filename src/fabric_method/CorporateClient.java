@@ -1,4 +1,4 @@
-package com.company;
+package fabric_method;
 
 public class CorporateClient implements Client{
     String name;

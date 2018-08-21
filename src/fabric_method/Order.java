@@ -1,4 +1,4 @@
-package com.company;
+package fabric_method;
 
 //    абстрактная фабрика
 
