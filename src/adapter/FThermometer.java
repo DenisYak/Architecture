@@ -5,7 +5,7 @@ public class FThermometer {
     public FThermometer(){
         indication = 97.88;
     }
-    public void getIndication() {
-        System.out.println("Показания F термометра = " + indication);
+    public double getIndication() {
+        return indication;
     }
 }

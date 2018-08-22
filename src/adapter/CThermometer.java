@@ -5,7 +5,7 @@ public class CThermometer {
     public CThermometer(){
         indication = 36.6;
     }
-    public void getIndication() {
-        System.out.println("Показания С термометра = " + indication);
+    public double getIndication() {
+        return indication;
     }
 }

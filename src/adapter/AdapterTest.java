@@ -6,8 +6,11 @@ public class AdapterTest {
     public static void main(String[] args) {
         CThermometer cthermometer = new CThermometer();
         cthermometer.getIndication();
-        CThermometerAdapter cthermometerAdapter = new CThermometerAdapter(new FThermometer());
-        cthermometerAdapter.getIndication();
+        System.out.println("Показания C термометра = " + cthermometer.getIndication());
+
+        CThermAdapt cthermAdapt = new CThermAdapt(new FThermometer());
+        System.out.println("Показания F термометра = " + cthermAdapt.getIndication());
+
     }
 
 }
